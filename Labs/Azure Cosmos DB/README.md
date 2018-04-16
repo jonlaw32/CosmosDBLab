@@ -12,24 +12,6 @@ This hands-on lab will step you through the following features:
 1. **Querying** - Connect to a Azure Cosmos DB database using the DocumentDB API and execute a simple query
 2. **Filtering** - Execute ad-hoc queries on schemaless JSON data.
 
-## Deployment
-
-To deploy the azure resouces needed for this lab, click the button below
-
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoft%2Fcode-challenges%2Fmaster%2FLabs%2FAzure%20Cosmos%20DB%2Fdeployment%2Fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
-</a>
-
-Enter a resource group and a suitable (unique) name for your Azure Cosmos DB server. **This must be all lowercase** Set West US as the Location of the resource group.
-
-![](./images/azure_deploy.png)
-
-Click Purchase.
-
-Once the deployment has finished save the DocumentDBKey and DocumentDBEndpoint from the output.
-
-![](./images/azure_deploy_output.png)
-
 ### About the code
 
 This lab uses a simple ASP.NET MVC website as a test application. This application allows you to
