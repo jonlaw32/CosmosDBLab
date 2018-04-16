@@ -1,7 +1,5 @@
-# microsoft.docs
+# CosmosDB Lab 1
 
-### Welcome to Build Hand On Labs 2017.
+### Welcome to CosmosDB Lab 1
 
-Please put individual labs into the Labs directory with an appropriate name.
-
-e.g. Labs/Azure Search
+Labs/CosmosDB
