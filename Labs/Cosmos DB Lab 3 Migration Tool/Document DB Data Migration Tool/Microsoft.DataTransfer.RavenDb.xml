@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.DataTransfer.RavenDb</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Client.RavenDbProbeClient">
+            <summary>
+            Simple RavenDB client to verify the connection.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DataTransfer.RavenDb.Client.RavenDbProbeClient.TestConnectionAsync(System.String)">
+            <summary>
+            Tests the RavenDB connection.
+            </summary>
+            <param name="connectionString">RavenDB connection string to use to connect.</param>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.ConfigurationResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.ConnectionString">
+            <summary>
+              Looks up a localized string similar to Connection string (example: &quot;Url=xyz;User=xyz;Password=xyz;Database=xyz;&quot;).
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.Source_ExcludeId">
+            <summary>
+              Looks up a localized string similar to Optional. If document id property should be excluded from the output.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.Source_IndexFormat">
+            <summary>
+              Looks up a localized string similar to Optional, default &quot;{0}&quot;. Name of the index to use for the query.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.Source_Query">
+            <summary>
+              Looks up a localized string similar to Optional. Lucene query to execute.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.ConfigurationResources.Source_QueryFile">
+            <summary>
+              Looks up a localized string similar to Optional. Path to the file containing Lucene query.
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Defaults">
+            <summary>
+            Contains default configuration for RavenDB data adapters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Defaults.Current">
+            <summary>
+            Gets current default configuration for RavenDB data adapters.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DataTransfer.RavenDb.Defaults.SetCurrent(Microsoft.DataTransfer.RavenDb.IDefaults)">
+            <summary>
+            Changes default configuration for RavenDB data adapters.
+            </summary>
+            <param name="defaults">New default configuration.</param>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.DynamicConfigurationResources">
+            <summary>
+            Contains dynamic resources for data adapters configuration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.DynamicConfigurationResources.Source_Index">
+            <summary>
+            Gets the description for source index name property.
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.IDefaults">
+            <summary>
+            Contains default configuration for RavenDB data adapters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.IDefaults.SourceIndex">
+            <summary>
+            Gets the default index name used for queries.
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.AmbiguousQuery">
+            <summary>
+              Looks up a localized string similar to Both Query and QueryFile cannot be set at the same time.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.ConnectionStringMissing">
+            <summary>
+              Looks up a localized string similar to RavenDB connection string is required.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.NonJsonDocumentRead">
+            <summary>
+              Looks up a localized string similar to Document read from the RavenDB does not represent a JSON document.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Resources.SourceDescription">
+            <summary>
+              Looks up a localized string similar to Reads data from RavenDB database.
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Shared.IRavenDbAdapterConfiguration">
+            <summary>
+            Contains basic configuration for RavenDB data adapters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Shared.IRavenDbAdapterConfiguration.ConnectionString">
+            <summary>
+            Gets the connection string for the RavenDB database.
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Source.IRavenDbSourceAdapterConfiguration">
+            <summary>
+            Contains configuration for RavenDB data source adapter.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Source.IRavenDbSourceAdapterConfiguration.Index">
+            <summary>
+            Gets the name of the index to use for query.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Source.IRavenDbSourceAdapterConfiguration.Query">
+            <summary>
+            Gets the Lucene query.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Source.IRavenDbSourceAdapterConfiguration.QueryFile">
+            <summary>
+            Gets the path to the file that contains Lucene query.
+            </summary>
+        </member>
+        <member name="P:Microsoft.DataTransfer.RavenDb.Source.IRavenDbSourceAdapterConfiguration.ExcludeId">
+            <summary>
+            Gets the value that indicates whether document id should be omitted in the output. 
+            </summary>
+        </member>
+        <member name="T:Microsoft.DataTransfer.RavenDb.Source.RavenDbSourceAdapterFactory">
+            <summary>
+            Provides data source adapters capable of reading data from RavenDB.
+            </summary>
+        </member>
+        <member name="M:Microsoft.DataTransfer.RavenDb.Source.RavenDbSourceAdapterFactory.#ctor">
+            <summary>
+            Creates a new instance of <see cref="T:Microsoft.DataTransfer.RavenDb.Source.RavenDbSourceAdapterFactory" />.
+            </summary>
+        </member>
+    </members>
+</doc>
