@@ -414,7 +414,7 @@ WHERE hashtags.text NOT IN ("CosmosDB", "Azure")
 ![](./images/filter2.png)
 
 
-Imagine that we want to see hashtags where "#Tech" and "#Question" used. There two ways we can achieve this.
+Imagine that we want to see hashtags where "#spark" and "#ApacheSpark" used. There two ways we can achieve this.
 
 Using an `OR` predicate:
 
@@ -422,7 +422,7 @@ Using an `OR` predicate:
 SELECT hashtags
 FROM tweets
 JOIN hashtags IN tweets.Hashtags
-WHERE (hashtags.text = "Tech" OR hashtags.text = "Question")
+WHERE (hashtags.text = "spark" OR hashtags.text = "ApacheSpark")
 ```
 
 ...or using an `IN` predicate: 
