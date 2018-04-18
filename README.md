@@ -27,6 +27,13 @@ Instruktioner:
 
 https://github.com/ActiveSolution/CosmosDBLabs/blob/master/Labs/Cosmos%20DB%20Lab%203%20Migration%20Tool/Lab%203%20-%20Data%20Migration%20Tool%20-%20instruktioner.docx?raw=true
 
+Lab 4
+
+Labs/Cosmos DB Lab 4 Gremlin GraphDB
+
+Instruktioner:
+https://github.com/ActiveSolution/CosmosDBLabs/tree/master/Labs/Cosmos%20DB%20Lab%204%20Gremlin%20GraphDB
+
 
 
 
