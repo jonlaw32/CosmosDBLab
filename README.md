@@ -7,7 +7,9 @@ Lab 1
 Labs/Azure CosmosDB
 
 Instructions:
-https://github.com/ActiveSolution/CosmosDBLabs/tree/master/Labs/Cosmos%20DB%20Lab%201
+https://github.com/rfolkes/CosmosDBLab/tree/master/Labs/Cosmos%20DB%20Lab%201
+
+Code \Labs\Cosmos DB Lab 1\src
 
 
 Lab 2 - Challenge Lab
