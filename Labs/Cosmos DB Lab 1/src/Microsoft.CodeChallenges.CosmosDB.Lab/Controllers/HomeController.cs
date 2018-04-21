@@ -14,7 +14,7 @@ namespace Microsoft.CodeChallenges.CosmosDB.Lab.Controllers
 {
     public class HomeController : Controller
     {
-        private static readonly string[] _availableRegions = {LocationNames.NorthEurope, LocationNames.WestEurope, LocationNames.NorthEurope, LocationNames.AustraliaSoutheast};
+        private static readonly string[] _availableRegions = {LocationNames.NorthEurope, LocationNames.WestEurope, LocationNames.AustraliaSoutheast};
 
         private static Dictionary<string, DocumentClient> _readonlyClients;
 
